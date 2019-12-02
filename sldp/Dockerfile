@@ -10,6 +10,8 @@ RUN conda install -y scipy && \
 
 RUN conda install -y pysam && \
     conda install -y pybedtools && \
-    conda install pysnptools 
+    conda install -y pysnptools 
 
 RUN pip install sldp
+
+RUN apt-get install -y mesa-utils
