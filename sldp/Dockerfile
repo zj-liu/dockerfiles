@@ -12,6 +12,8 @@ RUN conda install -y pysam && \
     conda install -y pybedtools && \
     conda install -y pysnptools 
 
-RUN pip install sldp
+#RUN pip install sldp
+RUN pip install git+https://github.com/zj-liu/sldp.git
+
 
 RUN apt-get install -y mesa-utils
