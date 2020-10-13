@@ -13,5 +13,14 @@ RUN conda install -y scipy=1.2.1 && \
 
 RUN conda install -y meme && \
     conda install -y crossmap && \
-    conda install -y matplotlib
-    conda install -y pybigwig
+    conda install -y matplotlib && \
+    conda install -y pybigwig && \
+    conda install -y pybedtools
+
+RUN conda install -y ucsc-bigbedtobed && \
+    conda install -y ucsc-bedgraphtobigwig && \
+    conda install -y ucsc-bedtobigbed && \
+    conda install -y ucsc-bigwigtobedgraph && \
+    conda install -y ucsc-liftover && \
+    conda install -y ucsc-bedsort && \
+    conda install -y ucsc-bedremoveoverlap
