@@ -1,4 +1,4 @@
-# dockerfiles
+# dockerfiles for genomics tools
 
 * LDSC (LD SCore) (https://github.com/bulik/ldsc)
   - ldsc is in the `ldsc` folder
