@@ -5,7 +5,8 @@ RUN conda config --add channels conda-forge && \
     conda config --add channels omnia && \
     conda config --add channels imperial-college-research-computing 
 
-RUN conda install -y scipy=1.2.1 && \
+RUN conda install -y python=3.6.5 && \
+    conda install -y scipy=1.2.1 && \
     conda install -y tensorflow-gpu=1.14.0 && \
     conda install -y keras=2.2.5 && \
     conda install -y opencv=3.4.2 && \
