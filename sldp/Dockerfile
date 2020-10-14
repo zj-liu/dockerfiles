@@ -10,7 +10,7 @@ RUN conda install -y scipy && \
 
 RUN conda install -y pysam && \
     conda install -y pybedtools && \
-    conda install -y pysnptools
+    conda install -y pysnptools && \
     conda install -y pybigwig
 
 #RUN pip install sldp
