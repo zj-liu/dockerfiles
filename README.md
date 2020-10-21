@@ -13,4 +13,4 @@
   sldp
   ```
   
-* TF_prediction
+* TF_prediction. Anaconda environment with tensorflow-gpu 1.14.0. and the other required packages.
